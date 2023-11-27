@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geektrust challenge one</title>
+    <script src="https://kit.fontawesome.com/6e72db0679.js" crossorigin="anonymous"></script>
+     
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div  class="col-12" id="header">
+                <h1>TeeRex Store</h1>
+                <!-- <a href="#">TeeRex Store</a> -->
+                <div> 
+                    <ul id="navbar">
+                        <li><a class="active" href="#">Products</a></li>
+                        <li><a href="cart">
+
+                            <div class="fly-item"><span class="item-number">0</span></div>
+                            <i class="fa-solid fa-cart-shopping"></i>
+                              
+                           
+                           
+                           </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+        <div class="searchBox">
+            <div class="search_wrap">
+                <div class="search_box">
+                    <input type="text" placeholder="Search for products" class="input">
+                    <div class="btn btn_common">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                       
+                    </div>
+                     
+                </div>
+            </div>
+            
+           
+        </div>
+        
+        <div class="big-container">
+            <div class="col-lg-4">
+                <div>
+                    <ul id="check_box">
+                        <li>
+                            Colour 
+                            
+                              <div class="form-check">
+                                <div class="form">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                                <label class="form-check-label" for="flexCheckChecked">
+                                    Red
+                                </label>
+                                </div>
+                                <div  class="form">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                                <label class="form-check-label" for="flexCheckChecked">
+                                    Blue
+                                </label>
+                                </div>
+                                <div  class="form">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                                <label class="form-check-label" for="flexCheckChecked">
+                                    Green
+                                </label>
+
+                                </div>
+                            
+                                
+                            </div>
+                              
+
+                        </li>
+                         <li>
+                            Gender
+                            <div class="form-check">
+                                <div class="form">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                                <label class="form-check-label" for="flexCheckChecked">
+                                    Men
+                                </label>
+                                </div>
+                                <div  class="form">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                                <label class="form-check-label" for="flexCheckChecked">
+                                    Women
+                                </label>
+                                </div>
+                            </div>
+
+                        </li>
+                        <li>
+                            Price
+                            <div class="form-check">
+                                <div class="form">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                                <label class="form-check-label" for="flexCheckChecked">
+                                    0-Rs 250
+                                </label>
+                                </div>
+                                <div  class="form">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                                <label class="form-check-label" for="flexCheckChecked">
+                                    Rs 251-450
+                                </label>
+                                </div>
+                                <div  class="form">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                                <label class="form-check-label" for="flexCheckChecked">
+                                    Rs 450
+                                </label>
+
+                                </div>
+                            
+                                
+                            </div>
+                        <li>
+                            Type
+                            <div class="form-check">
+                                <div class="form">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                                <label class="form-check-label" for="flexCheckChecked">
+                                    Polo
+                                </label>
+                                </div>
+                                <div  class="form">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                                <label class="form-check-label" for="flexCheckChecked">
+                                    Hoodie
+                                </label>
+                                </div>
+                                <div  class="form">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                                <label class="form-check-label" for="flexCheckChecked">
+                                    Basic
+                                </label>
+
+                                </div>
+                            
+                                
+                            </div>
+                        </li></ul>
+                </div>
+            </div>
+            <div class="col-lg-8">
+                <div class="product-grid"></div>
+                    
+                </div>
+            </div>
+        </div>
+
+    <div id = "root"></div>
+       <div class="sidebar">
+         <div class="head">My Card</div>
+         <div id="cartItem">Your cart is empty</div>
+         <div class="foot">
+           <h3>Total</h3>
+           <h2 id="total">Rs 0.00</h2>
+         </div>
+       </div>
+       
+            
+        
+    </div>
+  
+    
+   
+    <script src="index.js"></script>
+      
+</body>
+</html>
